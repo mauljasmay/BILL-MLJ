@@ -1,0 +1,60 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+secret_api_key.csv
+credentials.json
+
+# Upload/Deployment Scripts (may contain tokens)
+upload.ps1
+upload-to-github.ps1
+upload-to-github.sh
+
+# System & Logs
+*.log
+error_log
+access_log
+/logs/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+
+# Dependencies
+vendor/
+node_modules/
+composer.lock
+
+# Backups & Temporary
+/backups/
+/backups_*/
+*.bak
+*.backup
+*.old
+/tmp/
+/temp/
+*.tmp
+*.cache
+
+# Build & Distribution
+/build/
+/dist/
+*.min.js
+*.min.css
+
+# Database
+*.sql.gz
+*.sql.bak
+database.sqlite
+
+# OS Files
+.AppleDouble
+.LSOverride
+$RECYCLE.BIN/
